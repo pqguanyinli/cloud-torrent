@@ -46,7 +46,7 @@ if [[ x${NEEDAUTH^^} == x"Y" ]]; then
 fi
 
 systemctl stop cloud-torrent || true
-wget -qO- https://api.github.com/repos/boypt/simple-torrent/releases/latest \
+wget -qO- https://api.github.com/repos/pqguanyinli/simple-torrent/releases/latest \
 | grep browser_download_url | grep "$BINTAG" | cut -d '"' -f 4 \
 | wget --no-verbose -i- -O- | gzip -d -c > ${CLDBIN}
 chmod 0755 ${CLDBIN}
