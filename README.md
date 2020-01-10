@@ -34,7 +34,7 @@ Also:
 
 ## Binary
 
-See [the latest release](https://github.com/boypt/cloud-torrent/releases/latest) or use the oneline script to do a quick install on modern Linux.
+See [the latest release](https://github.com/pqguanyinli/cloud-torrent/releases/latest) or use the oneline script to do a quick install on modern Linux.
 
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/pqguanyinli/simple-torrent/master/scripts/quickinstall.sh)
@@ -42,9 +42,9 @@ bash <(wget -qO- https://raw.githubusercontent.com/pqguanyinli/simple-torrent/ma
 
 The script install a systemd unit (under `scripts/cloud-torrent.service`) as service. Read further intructions: [Auth And Security](https://github.com/boypt/simple-torrent/wiki/AuthSecurity)
 
-## Docker [![Docker Pulls](https://img.shields.io/docker/pulls/boypt/cloud-torrent.svg)][dockerhub] [![Image Size](https://images.microbadger.com/badges/image/boypt/cloud-torrent.svg)][dockerhub]
+## Docker [![Docker Pulls](https://img.shields.io/docker/pulls/pqguanyinli/cloud-torrent.svg)][dockerhub] [![Image Size](https://images.microbadger.com/badges/image/pqguanyinli/cloud-torrent.svg)][dockerhub]
 
-[dockerhub]: https://hub.docker.com/r/boypt/cloud-torrent/
+[dockerhub]: https://hub.docker.com/r/pqguanyinli/cloud-torrent/
 
 ``` sh
 $ docker run -d -p 3000:3000 -v /path/to/my/downloads:/downloads -v /path/to/my/torrents:/torrents pqguanyinli/cloud-torrent
