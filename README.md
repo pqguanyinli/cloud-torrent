@@ -34,7 +34,7 @@ Also:
 
 ## Binary
 
-See [the latest release](https://github.com/pqguanyinli/cloud-torrent/releases/latest) or use the oneline script to do a quick install on modern Linux.
+See [the latest release](https://github.com/boypt/cloud-torrent/releases/latest) or use the oneline script to do a quick install on modern Linux.
 
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/pqguanyinli/simple-torrent/master/scripts/quickinstall.sh)
